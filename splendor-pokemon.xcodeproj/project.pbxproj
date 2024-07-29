@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745C0C3B2C57866700089268 /* splendor_pokemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3A2C57866700089268 /* splendor_pokemonApp.swift */; };
+		745C0C3D2C57866700089268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3C2C57866700089268 /* ContentView.swift */; };
+		745C0C3F2C57866900089268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C3E2C57866900089268 /* Assets.xcassets */; };
+		745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C412C57866900089268 /* Preview Assets.xcassets */; };
+		745C0C4C2C57866900089268 /* splendor_pokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C4B2C57866900089268 /* splendor_pokemonTests.swift */; };
+		745C0C562C57866900089268 /* splendor_pokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C552C57866900089268 /* splendor_pokemonUITests.swift */; };
+		745C0C582C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C572C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745C0C482C57866900089268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745C0C2F2C57866700089268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745C0C362C57866700089268;
+			remoteInfo = "splendor-pokemon";
+		};
+		745C0C522C57866900089268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745C0C2F2C57866700089268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745C0C362C57866700089268;
+			remoteInfo = "splendor-pokemon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		745C0C372C57866700089268 /* splendor-pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splendor-pokemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745C0C3A2C57866700089268 /* splendor_pokemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_pokemonApp.swift; sourceTree = "<group>"; };
+		745C0C3C2C57866700089268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		745C0C3E2C57866900089268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		745C0C412C57866900089268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		745C0C472C57866900089268 /* splendor-pokemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splendor-pokemonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745C0C4B2C57866900089268 /* splendor_pokemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_pokemonTests.swift; sourceTree = "<group>"; };
+		745C0C512C57866900089268 /* splendor-pokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splendor-pokemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		745C0C552C57866900089268 /* splendor_pokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_pokemonUITests.swift; sourceTree = "<group>"; };
+		745C0C572C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_pokemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745C0C342C57866700089268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745C0C442C57866900089268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745C0C4E2C57866900089268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745C0C2E2C57866700089268 = {
+			isa = PBXGroup;
+			children = (
+				745C0C392C57866700089268 /* splendor-pokemon */,
+				745C0C4A2C57866900089268 /* splendor-pokemonTests */,
+				745C0C542C57866900089268 /* splendor-pokemonUITests */,
+				745C0C382C57866700089268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		745C0C382C57866700089268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745C0C372C57866700089268 /* splendor-pokemon.app */,
+				745C0C472C57866900089268 /* splendor-pokemonTests.xctest */,
+				745C0C512C57866900089268 /* splendor-pokemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745C0C392C57866700089268 /* splendor-pokemon */ = {
+			isa = PBXGroup;
+			children = (
+				745C0C3A2C57866700089268 /* splendor_pokemonApp.swift */,
+				745C0C3C2C57866700089268 /* ContentView.swift */,
+				745C0C3E2C57866900089268 /* Assets.xcassets */,
+				745C0C402C57866900089268 /* Preview Content */,
+			);
+			path = "splendor-pokemon";
+			sourceTree = "<group>";
+		};
+		745C0C402C57866900089268 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				745C0C412C57866900089268 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		745C0C4A2C57866900089268 /* splendor-pokemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				745C0C4B2C57866900089268 /* splendor_pokemonTests.swift */,
+			);
+			path = "splendor-pokemonTests";
+			sourceTree = "<group>";
+		};
+		745C0C542C57866900089268 /* splendor-pokemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				745C0C552C57866900089268 /* splendor_pokemonUITests.swift */,
+				745C0C572C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift */,
+			);
+			path = "splendor-pokemonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745C0C362C57866700089268 /* splendor-pokemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745C0C5B2C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-pokemon" */;
+			buildPhases = (
+				745C0C332C57866700089268 /* Sources */,
+				745C0C342C57866700089268 /* Frameworks */,
+				745C0C352C57866700089268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "splendor-pokemon";
+			productName = "splendor-pokemon";
+			productReference = 745C0C372C57866700089268 /* splendor-pokemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		745C0C462C57866900089268 /* splendor-pokemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745C0C5E2C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-pokemonTests" */;
+			buildPhases = (
+				745C0C432C57866900089268 /* Sources */,
+				745C0C442C57866900089268 /* Frameworks */,
+				745C0C452C57866900089268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745C0C492C57866900089268 /* PBXTargetDependency */,
+			);
+			name = "splendor-pokemonTests";
+			productName = "splendor-pokemonTests";
+			productReference = 745C0C472C57866900089268 /* splendor-pokemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		745C0C502C57866900089268 /* splendor-pokemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745C0C612C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-pokemonUITests" */;
+			buildPhases = (
+				745C0C4D2C57866900089268 /* Sources */,
+				745C0C4E2C57866900089268 /* Frameworks */,
+				745C0C4F2C57866900089268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745C0C532C57866900089268 /* PBXTargetDependency */,
+			);
+			name = "splendor-pokemonUITests";
+			productName = "splendor-pokemonUITests";
+			productReference = 745C0C512C57866900089268 /* splendor-pokemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745C0C2F2C57866700089268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					745C0C362C57866700089268 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					745C0C462C57866900089268 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 745C0C362C57866700089268;
+					};
+					745C0C502C57866900089268 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 745C0C362C57866700089268;
+					};
+				};
+			};
+			buildConfigurationList = 745C0C322C57866700089268 /* Build configuration list for PBXProject "splendor-pokemon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745C0C2E2C57866700089268;
+			productRefGroup = 745C0C382C57866700089268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745C0C362C57866700089268 /* splendor-pokemon */,
+				745C0C462C57866900089268 /* splendor-pokemonTests */,
+				745C0C502C57866900089268 /* splendor-pokemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745C0C352C57866700089268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */,
+				745C0C3F2C57866900089268 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745C0C452C57866900089268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745C0C4F2C57866900089268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745C0C332C57866700089268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745C0C3D2C57866700089268 /* ContentView.swift in Sources */,
+				745C0C3B2C57866700089268 /* splendor_pokemonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745C0C432C57866900089268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745C0C4C2C57866900089268 /* splendor_pokemonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745C0C4D2C57866900089268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745C0C562C57866900089268 /* splendor_pokemonUITests.swift in Sources */,
+				745C0C582C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		745C0C492C57866900089268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745C0C362C57866700089268 /* splendor-pokemon */;
+			targetProxy = 745C0C482C57866900089268 /* PBXContainerItemProxy */;
+		};
+		745C0C532C57866900089268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745C0C362C57866700089268 /* splendor-pokemon */;
+			targetProxy = 745C0C522C57866900089268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		745C0C592C57866900089268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		745C0C5A2C57866900089268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		745C0C5C2C57866900089268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"splendor-pokemon/Preview Content\"";
+				DEVELOPMENT_TEAM = Q57XL3X3S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745C0C5D2C57866900089268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"splendor-pokemon/Preview Content\"";
+				DEVELOPMENT_TEAM = Q57XL3X3S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		745C0C5F2C57866900089268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57XL3X3S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splendor-pokemon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/splendor-pokemon";
+			};
+			name = Debug;
+		};
+		745C0C602C57866900089268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57XL3X3S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splendor-pokemon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/splendor-pokemon";
+			};
+			name = Release;
+		};
+		745C0C622C57866900089268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57XL3X3S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "splendor-pokemon";
+			};
+			name = Debug;
+		};
+		745C0C632C57866900089268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q57XL3X3S5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "splendor-pokemon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745C0C322C57866700089268 /* Build configuration list for PBXProject "splendor-pokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745C0C592C57866900089268 /* Debug */,
+				745C0C5A2C57866900089268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745C0C5B2C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-pokemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745C0C5C2C57866900089268 /* Debug */,
+				745C0C5D2C57866900089268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745C0C5E2C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-pokemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745C0C5F2C57866900089268 /* Debug */,
+				745C0C602C57866900089268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745C0C612C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-pokemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745C0C622C57866900089268 /* Debug */,
+				745C0C632C57866900089268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745C0C2F2C57866700089268 /* Project object */;
+}
