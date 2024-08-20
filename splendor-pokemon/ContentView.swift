@@ -46,7 +46,7 @@ struct ContentView: View {
                     HStack(spacing: 20) {
                         Text("Player 1")
                         Text("토큰 수: \(totalCount_1)")
-                            .foregroundStyle(isOverTen_1 ? Color.red : Color.black)
+                            .foregroundStyle(isOverTen_1 ? Color.red : .primary)
                     }
                     ForEach($player1Balls) { $ball in
                         HStack {
@@ -76,7 +76,7 @@ struct ContentView: View {
                     HStack(spacing: 20) {
                         Text("Player 2")
                         Text("토큰 수: \(totalCount_2)")
-                            .foregroundStyle(isOverTen_2 ? Color.red : Color.black)
+                            .foregroundStyle(isOverTen_2 ? Color.red : .primary)
                     }
                     ForEach($player2Balls) { $ball in
                         HStack {
