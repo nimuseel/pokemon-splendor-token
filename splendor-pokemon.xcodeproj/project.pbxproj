@@ -14,6 +14,7 @@
 		745C0C4C2C57866900089268 /* splendor_pokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C4B2C57866900089268 /* splendor_pokemonTests.swift */; };
 		745C0C562C57866900089268 /* splendor_pokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C552C57866900089268 /* splendor_pokemonUITests.swift */; };
 		745C0C582C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C572C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift */; };
+		745C0C652C74D94800089268 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C642C74D94800089268 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		745C0C512C57866900089268 /* splendor-pokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splendor-pokemonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745C0C552C57866900089268 /* splendor_pokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_pokemonUITests.swift; sourceTree = "<group>"; };
 		745C0C572C57866900089268 /* splendor_pokemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_pokemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		745C0C642C74D94800089268 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		745C0C2E2C57866700089268 = {
 			isa = PBXGroup;
 			children = (
+				745C0C642C74D94800089268 /* .gitignore */,
 				745C0C392C57866700089268 /* splendor-pokemon */,
 				745C0C4A2C57866900089268 /* splendor-pokemonTests */,
 				745C0C542C57866900089268 /* splendor-pokemonUITests */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */,
+				745C0C652C74D94800089268 /* .gitignore in Resources */,
 				745C0C3F2C57866900089268 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
