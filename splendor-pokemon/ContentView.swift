@@ -15,23 +15,23 @@ struct BallType: Identifiable, Equatable {
 
 struct ContentView: View {
     @State private var player1Balls: [BallType] = [
-        BallType(imageName: "poke_ball", count: 0),
-        BallType(imageName: "great_ball", count: 0),
-        BallType(imageName: "ultra_ball", count: 0),
-        BallType(imageName: "heal_ball", count: 0),
-        BallType(imageName: "quick_ball", count: 0),
-        BallType(imageName: "master_ball", count: 0)
+        BallType(imageName: "poke_ball_fill", count: 0),
+        BallType(imageName: "great_ball_flll", count: 0),
+        BallType(imageName: "ultra_ball_fill", count: 0),
+        BallType(imageName: "heal_ball_fill", count: 0),
+        BallType(imageName: "quick_ball_fill", count: 0),
+        BallType(imageName: "master_ball_fill", count: 0)
     ]
     @State private var totalCount_1 = 0
     @State private var isOverTen_1 = false
 
     @State private var player2Balls: [BallType] = [
-        BallType(imageName: "poke_ball", count: 0),
-        BallType(imageName: "great_ball", count: 0),
-        BallType(imageName: "ultra_ball", count: 0),
-        BallType(imageName: "heal_ball", count: 0),
-        BallType(imageName: "quick_ball", count: 0),
-        BallType(imageName: "master_ball", count: 0)
+        BallType(imageName: "poke_ball_fill", count: 0),
+        BallType(imageName: "great_ball_flll", count: 0),
+        BallType(imageName: "ultra_ball_fill", count: 0),
+        BallType(imageName: "heal_ball_fill", count: 0),
+        BallType(imageName: "quick_ball_fill", count: 0),
+        BallType(imageName: "master_ball_fill", count: 0)
     ]
     @State private var totalCount_2 = 0
     @State private var isOverTen_2 = false
