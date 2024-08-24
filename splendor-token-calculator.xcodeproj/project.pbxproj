@@ -11,29 +11,9 @@
 		745C0C3D2C57866700089268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3C2C57866700089268 /* ContentView.swift */; };
 		745C0C3F2C57866900089268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C3E2C57866900089268 /* Assets.xcassets */; };
 		745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C412C57866900089268 /* Preview Assets.xcassets */; };
-		745C0C4C2C57866900089268 /* splendor_token_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C4B2C57866900089268 /* splendor_token_calculatorTests.swift */; };
-		745C0C562C57866900089268 /* splendor_token_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C552C57866900089268 /* splendor_token_calculatorUITests.swift */; };
-		745C0C582C57866900089268 /* splendor_token_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C572C57866900089268 /* splendor_token_calculatorUITestsLaunchTests.swift */; };
 		745C0C652C74D94800089268 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C642C74D94800089268 /* .gitignore */; };
 		74AA272C2C79B63A00131D87 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA272B2C79B63A00131D87 /* MainView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		745C0C482C57866900089268 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 745C0C2F2C57866700089268 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 745C0C362C57866700089268;
-			remoteInfo = "splendor-pokemon";
-		};
-		745C0C522C57866900089268 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 745C0C2F2C57866700089268 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 745C0C362C57866700089268;
-			remoteInfo = "splendor-pokemon";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		745C0C372C57866700089268 /* splendor-token-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splendor-token-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,31 +21,12 @@
 		745C0C3C2C57866700089268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		745C0C3E2C57866900089268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745C0C412C57866900089268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		745C0C472C57866900089268 /* splendor-token-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splendor-token-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		745C0C4B2C57866900089268 /* splendor_token_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_token_calculatorTests.swift; sourceTree = "<group>"; };
-		745C0C512C57866900089268 /* splendor-token-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "splendor-token-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		745C0C552C57866900089268 /* splendor_token_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_token_calculatorUITests.swift; sourceTree = "<group>"; };
-		745C0C572C57866900089268 /* splendor_token_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_token_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		745C0C642C74D94800089268 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		74AA272B2C79B63A00131D87 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		745C0C342C57866700089268 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745C0C442C57866900089268 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745C0C4E2C57866900089268 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +41,6 @@
 			children = (
 				745C0C642C74D94800089268 /* .gitignore */,
 				745C0C392C57866700089268 /* splendor-token-calculator */,
-				745C0C4A2C57866900089268 /* splendor-splendor-token-calculatorTests */,
-				745C0C542C57866900089268 /* splendor-splendor-token-calculatorUITests */,
 				745C0C382C57866700089268 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				745C0C372C57866700089268 /* splendor-token-calculator.app */,
-				745C0C472C57866900089268 /* splendor-token-calculatorTests.xctest */,
-				745C0C512C57866900089268 /* splendor-token-calculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,9 +58,9 @@
 			children = (
 				745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */,
 				745C0C3C2C57866700089268 /* ContentView.swift */,
+				74AA272B2C79B63A00131D87 /* MainView.swift */,
 				745C0C3E2C57866900089268 /* Assets.xcassets */,
 				745C0C402C57866900089268 /* Preview Content */,
-				74AA272B2C79B63A00131D87 /* MainView.swift */,
 			);
 			path = "splendor-token-calculator";
 			sourceTree = "<group>";
@@ -114,23 +71,6 @@
 				745C0C412C57866900089268 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		745C0C4A2C57866900089268 /* splendor-splendor-token-calculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				745C0C4B2C57866900089268 /* splendor_token_calculatorTests.swift */,
-			);
-			path = "splendor-splendor-token-calculatorTests";
-			sourceTree = "<group>";
-		};
-		745C0C542C57866900089268 /* splendor-splendor-token-calculatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				745C0C552C57866900089268 /* splendor_token_calculatorUITests.swift */,
-				745C0C572C57866900089268 /* splendor_token_calculatorUITestsLaunchTests.swift */,
-			);
-			path = "splendor-splendor-token-calculatorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,42 +93,6 @@
 			productReference = 745C0C372C57866700089268 /* splendor-token-calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		745C0C462C57866900089268 /* splendor-token-calculatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 745C0C5E2C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-token-calculatorTests" */;
-			buildPhases = (
-				745C0C432C57866900089268 /* Sources */,
-				745C0C442C57866900089268 /* Frameworks */,
-				745C0C452C57866900089268 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				745C0C492C57866900089268 /* PBXTargetDependency */,
-			);
-			name = "splendor-token-calculatorTests";
-			productName = "splendor-pokemonTests";
-			productReference = 745C0C472C57866900089268 /* splendor-token-calculatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		745C0C502C57866900089268 /* splendor-token-calculatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 745C0C612C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-token-calculatorUITests" */;
-			buildPhases = (
-				745C0C4D2C57866900089268 /* Sources */,
-				745C0C4E2C57866900089268 /* Frameworks */,
-				745C0C4F2C57866900089268 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				745C0C532C57866900089268 /* PBXTargetDependency */,
-			);
-			name = "splendor-token-calculatorUITests";
-			productName = "splendor-pokemonUITests";
-			productReference = 745C0C512C57866900089268 /* splendor-token-calculatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,14 +105,6 @@
 				TargetAttributes = {
 					745C0C362C57866700089268 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					745C0C462C57866900089268 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 745C0C362C57866700089268;
-					};
-					745C0C502C57866900089268 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 745C0C362C57866700089268;
 					};
 				};
 			};
@@ -226,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				745C0C362C57866700089268 /* splendor-token-calculator */,
-				745C0C462C57866900089268 /* splendor-token-calculatorTests */,
-				745C0C502C57866900089268 /* splendor-token-calculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,20 +134,6 @@
 				745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */,
 				745C0C652C74D94800089268 /* .gitignore in Resources */,
 				745C0C3F2C57866900089268 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745C0C452C57866900089268 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745C0C4F2C57866900089268 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,37 +150,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		745C0C432C57866900089268 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				745C0C4C2C57866900089268 /* splendor_token_calculatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		745C0C4D2C57866900089268 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				745C0C562C57866900089268 /* splendor_token_calculatorUITests.swift in Sources */,
-				745C0C582C57866900089268 /* splendor_token_calculatorUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		745C0C492C57866900089268 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 745C0C362C57866700089268 /* splendor-token-calculator */;
-			targetProxy = 745C0C482C57866900089268 /* PBXContainerItemProxy */;
-		};
-		745C0C532C57866900089268 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 745C0C362C57866700089268 /* splendor-token-calculator */;
-			targetProxy = 745C0C522C57866900089268 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		745C0C592C57866900089268 /* Debug */ = {
@@ -429,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"splendor-token-calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "splendor-token-calculator/Preview\\ Content";
 				DEVELOPMENT_TEAM = Q57XL3X3S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -465,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"splendor-token-calculator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "splendor-token-calculator/Preview\\ Content";
 				DEVELOPMENT_TEAM = Q57XL3X3S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -494,82 +344,6 @@
 			};
 			name = Release;
 		};
-		745C0C5F2C57866900089268 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q57XL3X3S5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splendor-token-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/splendor-token-calculator";
-			};
-			name = Debug;
-		};
-		745C0C602C57866900089268 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q57XL3X3S5;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/splendor-token-calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/splendor-token-calculator";
-			};
-			name = Release;
-		};
-		745C0C622C57866900089268 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q57XL3X3S5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "splendor-pokemon";
-			};
-			name = Debug;
-		};
-		745C0C632C57866900089268 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Q57XL3X3S5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nimuseel.splendor-pokemonUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "splendor-pokemon";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,24 +361,6 @@
 			buildConfigurations = (
 				745C0C5C2C57866900089268 /* Debug */,
 				745C0C5D2C57866900089268 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		745C0C5E2C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-token-calculatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				745C0C5F2C57866900089268 /* Debug */,
-				745C0C602C57866900089268 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		745C0C612C57866900089268 /* Build configuration list for PBXNativeTarget "splendor-token-calculatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				745C0C622C57866900089268 /* Debug */,
-				745C0C632C57866900089268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
