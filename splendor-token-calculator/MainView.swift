@@ -33,9 +33,8 @@ struct MainView: View {
                         }
                     
                 }
-                Rectangle()
-                    .frame(width: .infinity, height: 170)
-                    .opacity(0)
+                Spacer()
+                    .frame(height: 170)
             }
             .navigationTitle("인원 선택")
         }
