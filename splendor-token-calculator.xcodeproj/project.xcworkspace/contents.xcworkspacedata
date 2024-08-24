@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/sumin/dev/ios/splendor-token-calculator/splendor-token-calculator.xcodeproj">
    </FileRef>
 </Workspace>
