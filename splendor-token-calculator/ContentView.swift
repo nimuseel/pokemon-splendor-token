@@ -4,6 +4,10 @@ struct BallType: Identifiable, Equatable {
     let id = UUID()
     var imageName: String
     var count: Int
+    
+    mutating func resetCount() {
+        self.count = 0
+    }
 }
 
 struct ContentView: View {
@@ -32,6 +36,12 @@ struct ContentView: View {
     let step = 1
     let range = 0...4
     
+    func resetBallCount(_ balls: inout [BallType]) -> Void {
+        for index in balls.indices {
+            balls[index].resetCount()
+        }
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -41,6 +51,9 @@ struct ContentView: View {
                             Text("Player 1")
                             Text("토큰 수: \(totalCount_1)")
                                 .foregroundStyle(isOverTen_1 ? Color.red : .primary)
+                            Button("초기화") {
+                                resetBallCount(&player1Balls)
+                            }
                         }
                         ForEach($player1Balls) { $ball in
                             HStack {
@@ -71,6 +84,9 @@ struct ContentView: View {
                             Text("Player 2")
                             Text("토큰 수: \(totalCount_2)")
                                 .foregroundStyle(isOverTen_2 ? Color.red : .primary)
+                            Button("초기화") {
+                                resetBallCount(&player2Balls)
+                            }
                         }
                         ForEach($player2Balls) { $ball in
                             HStack {
