@@ -10,7 +10,7 @@ struct BallType: Identifiable, Equatable {
     }
 }
 
-struct ContentView: View {
+struct TwoPlayerView: View {
     @State private var player1Balls: [BallType] = [
         BallType(imageName: "poke_ball_fill", count: 0),
         BallType(imageName: "great_ball_flll", count: 0),
@@ -118,5 +118,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    TwoPlayerView()
 }

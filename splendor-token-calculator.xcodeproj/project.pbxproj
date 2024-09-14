@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		745C0C3B2C57866700089268 /* splendor_token_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */; };
-		745C0C3D2C57866700089268 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3C2C57866700089268 /* ContentView.swift */; };
+		745C0C3D2C57866700089268 /* TwoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3C2C57866700089268 /* TwoPlayerView.swift */; };
 		745C0C3F2C57866900089268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C3E2C57866900089268 /* Assets.xcassets */; };
 		745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C412C57866900089268 /* Preview Assets.xcassets */; };
 		745C0C652C74D94800089268 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C642C74D94800089268 /* .gitignore */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		745C0C372C57866700089268 /* splendor-token-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splendor-token-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_token_calculatorApp.swift; sourceTree = "<group>"; };
-		745C0C3C2C57866700089268 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		745C0C3C2C57866700089268 /* TwoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerView.swift; sourceTree = "<group>"; };
 		745C0C3E2C57866900089268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745C0C412C57866900089268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		745C0C642C74D94800089268 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */,
-				745C0C3C2C57866700089268 /* ContentView.swift */,
+				745C0C3C2C57866700089268 /* TwoPlayerView.swift */,
 				74AA272B2C79B63A00131D87 /* MainView.swift */,
 				745C0C3E2C57866900089268 /* Assets.xcassets */,
 				745C0C402C57866900089268 /* Preview Content */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				745C0C3D2C57866700089268 /* ContentView.swift in Sources */,
+				745C0C3D2C57866700089268 /* TwoPlayerView.swift in Sources */,
 				74AA272C2C79B63A00131D87 /* MainView.swift in Sources */,
 				745C0C3B2C57866700089268 /* splendor_token_calculatorApp.swift in Sources */,
 			);

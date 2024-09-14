@@ -7,7 +7,7 @@ struct MainView: View {
         NavigationView {
             VStack {
                 HStack(alignment: .center, spacing: 12) {
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: TwoPlayerView()) {
                         Text("2인")
                             .frame(width: 150, height: 80)
                             .foregroundColor(.primary)
