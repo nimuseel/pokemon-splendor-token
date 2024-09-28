@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742AB6732C95CE5800D81B2D /* ThreePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AB6722C95CE5800D81B2D /* ThreePlayerView.swift */; };
+		742AB6752C95CEA600D81B2D /* FourPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742AB6742C95CEA600D81B2D /* FourPlayerView.swift */; };
 		745C0C3B2C57866700089268 /* splendor_token_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */; };
 		745C0C3D2C57866700089268 /* TwoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C0C3C2C57866700089268 /* TwoPlayerView.swift */; };
 		745C0C3F2C57866900089268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C3E2C57866900089268 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		742AB6722C95CE5800D81B2D /* ThreePlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePlayerView.swift; sourceTree = "<group>"; };
+		742AB6742C95CEA600D81B2D /* FourPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourPlayerView.swift; sourceTree = "<group>"; };
 		745C0C372C57866700089268 /* splendor-token-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "splendor-token-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splendor_token_calculatorApp.swift; sourceTree = "<group>"; };
 		745C0C3C2C57866700089268 /* TwoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPlayerView.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 			children = (
 				745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */,
 				745C0C3C2C57866700089268 /* TwoPlayerView.swift */,
+				742AB6722C95CE5800D81B2D /* ThreePlayerView.swift */,
 				74AA272B2C79B63A00131D87 /* MainView.swift */,
 				745C0C3E2C57866900089268 /* Assets.xcassets */,
 				745C0C402C57866900089268 /* Preview Content */,
+				742AB6742C95CEA600D81B2D /* FourPlayerView.swift */,
 			);
 			path = "splendor-token-calculator";
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742AB6732C95CE5800D81B2D /* ThreePlayerView.swift in Sources */,
 				745C0C3D2C57866700089268 /* TwoPlayerView.swift in Sources */,
 				74AA272C2C79B63A00131D87 /* MainView.swift in Sources */,
 				745C0C3B2C57866700089268 /* splendor_token_calculatorApp.swift in Sources */,
+				742AB6752C95CEA600D81B2D /* FourPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

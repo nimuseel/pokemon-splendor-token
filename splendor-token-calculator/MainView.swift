@@ -1,37 +1,35 @@
 import SwiftUI
 
+enum NavigateType {
+    case three
+    case four
+}
+
 struct MainView: View {
-    @State private var showAlert = false
+    @State private var isShowThreePersonView = false
+    @State private var isShowFourPersonView = false
+    
+    let gameScreenForEachPlayer: [(String, AnyView)] = [
+        ("2인", AnyView(TwoPlayerView())),
+        ("3인", AnyView(ThreePlayerView())),
+        ("4인", AnyView(FourPlayerView()))
+    ]
     
     var body: some View {
         NavigationView {
             VStack {
-                HStack(alignment: .center, spacing: 12) {
-                    NavigationLink(destination: TwoPlayerView()) {
-                        Text("2인")
-                            .frame(width: 150, height: 80)
-                            .foregroundColor(.primary)
-                            .overlay(
-                              RoundedRectangle(cornerRadius: 12)
-                                .stroke(.gray, lineWidth:1)
-                            )
-                    }
-                    
-                    Button("3인 이상") {
-                        showAlert = true
-                    }
-                        .frame(width: 150, height: 80)
-                        .foregroundColor(.primary)
-                        .overlay(
-                          RoundedRectangle(cornerRadius: 12)
-                            .stroke(.gray, lineWidth:1)
-                        )
-                        .alert("3인 이상 규칙은 열심히 개발 중입니다! 조금만 기다려 주세요!", isPresented: $showAlert) {
-                            Button("OK", role: .cancel) {
-                                showAlert = false
-                            }
+                VStack(alignment: .center, spacing: 12) {
+                    ForEach(gameScreenForEachPlayer, id: \.0) { option in
+                        NavigationLink(destination: option.1) {
+                            Text(option.0)
+                                .frame(width: 150, height: 80)
+                                .foregroundColor(.primary)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 12)
+                                        .stroke(.gray, lineWidth: 1)
+                                )
                         }
-                    
+                    }
                 }
                 Spacer()
                     .frame(height: 170)
