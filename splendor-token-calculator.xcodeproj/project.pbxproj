@@ -14,6 +14,8 @@
 		745C0C3F2C57866900089268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C3E2C57866900089268 /* Assets.xcassets */; };
 		745C0C422C57866900089268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C412C57866900089268 /* Preview Assets.xcassets */; };
 		745C0C652C74D94800089268 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 745C0C642C74D94800089268 /* .gitignore */; };
+		7489E0502CA933B60006C1B0 /* PlayerBallManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489E04F2CA933B60006C1B0 /* PlayerBallManage.swift */; };
+		7489E0522CA933FA0006C1B0 /* BallType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489E0512CA933FA0006C1B0 /* BallType.swift */; };
 		74AA272C2C79B63A00131D87 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA272B2C79B63A00131D87 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		745C0C3E2C57866900089268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745C0C412C57866900089268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		745C0C642C74D94800089268 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7489E04F2CA933B60006C1B0 /* PlayerBallManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBallManage.swift; sourceTree = "<group>"; };
+		7489E0512CA933FA0006C1B0 /* BallType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallType.swift; sourceTree = "<group>"; };
 		74AA272B2C79B63A00131D87 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,10 +67,12 @@
 				745C0C3A2C57866700089268 /* splendor_token_calculatorApp.swift */,
 				745C0C3C2C57866700089268 /* TwoPlayerView.swift */,
 				742AB6722C95CE5800D81B2D /* ThreePlayerView.swift */,
+				742AB6742C95CEA600D81B2D /* FourPlayerView.swift */,
+				7489E04F2CA933B60006C1B0 /* PlayerBallManage.swift */,
 				74AA272B2C79B63A00131D87 /* MainView.swift */,
 				745C0C3E2C57866900089268 /* Assets.xcassets */,
 				745C0C402C57866900089268 /* Preview Content */,
-				742AB6742C95CEA600D81B2D /* FourPlayerView.swift */,
+				7489E0512CA933FA0006C1B0 /* BallType.swift */,
 			);
 			path = "splendor-token-calculator";
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7489E0522CA933FA0006C1B0 /* BallType.swift in Sources */,
+				7489E0502CA933B60006C1B0 /* PlayerBallManage.swift in Sources */,
 				742AB6732C95CE5800D81B2D /* ThreePlayerView.swift in Sources */,
 				745C0C3D2C57866700089268 /* TwoPlayerView.swift in Sources */,
 				74AA272C2C79B63A00131D87 /* MainView.swift in Sources */,
