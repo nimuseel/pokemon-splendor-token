@@ -1,15 +1,5 @@
 import SwiftUI
 
-struct BallType: Identifiable, Equatable {
-    let id = UUID()
-    var imageName: String
-    var count: Int
-    
-    mutating func resetCount() {
-        self.count = 0
-    }
-}
-
 struct TwoPlayerView: View {
     @State private var player1Balls: [BallType] = [
         BallType(imageName: "poke_ball_fill", count: 0),
@@ -34,7 +24,7 @@ struct TwoPlayerView: View {
     @State private var isOverTen_2 = false
     
     let step = 1
-    let range = 0...4
+    let range = Binding.constant(0...4)
     
     func resetBallCount(_ balls: inout [BallType]) -> Void {
         for index in balls.indices {
@@ -46,71 +36,11 @@ struct TwoPlayerView: View {
         NavigationView {
             VStack {
                 Group {
-                    VStack(spacing: 20) {
-                        HStack(spacing: 20) {
-                            Text("Player 1")
-                            Text("토큰 수: \(totalCount_1)")
-                                .foregroundStyle(isOverTen_1 ? Color.red : .primary)
-                            Button("초기화") {
-                                resetBallCount(&player1Balls)
-                            }
-                        }
-                        ForEach($player1Balls) { $ball in
-                            HStack {
-                                Stepper(
-                                    value: $ball.count,
-                                    in: range,
-                                    step: step
-                                ) {
-                                    Image(ball.imageName)
-                                }
-                                .padding(.trailing, 60)
-                                .disabled(isOverTen_1 && ball.count <= 0)
-                                
-                                Text("\(ball.count)")
-                            }
-                            .padding(.horizontal)
-                        }
-                    }
-                    .onChange(of: player1Balls, {
-                        totalCount_1 = player1Balls.reduce(0) { $0 + $1.count }
-                        isOverTen_1 = totalCount_1 >= 10
-                    })
+                    PlayerBallManage(playerBalls: $player1Balls, totalCount: $totalCount_1, isOverTen: $isOverTen_1, selectedPlayer: .constant("Player 1"), itemSpacing: .constant(20), range: range)
                     
-                    Spacer()
                     Divider().padding(.bottom)
-                    VStack(spacing: 20) {
-                        HStack(spacing: 20) {
-                            Text("Player 2")
-                            Text("토큰 수: \(totalCount_2)")
-                                .foregroundStyle(isOverTen_2 ? Color.red : .primary)
-                            Button("초기화") {
-                                resetBallCount(&player2Balls)
-                            }
-                        }
-                        ForEach($player2Balls) { $ball in
-                            HStack {
-                                Stepper(
-                                    value: $ball.count,
-                                    in: range,
-                                    step: step
-                                ) {
-                                    Image(ball.imageName)
-                                }
-                                .padding(.trailing, 60)
-                                .disabled(isOverTen_2 && ball.count <= 0)
-                                
-                                Text("\(ball.count)")
-                            }
-                            .padding(.horizontal)
-                        }
-                    }
-                    .onChange(of: player2Balls, {
-                        totalCount_2 = player2Balls.reduce(0) { $0 + $1.count }
-                        isOverTen_2 = totalCount_2 >= 10
-                    })
                     
-                    Spacer()
+                    PlayerBallManage(playerBalls: $player2Balls, totalCount: $totalCount_2, isOverTen: $isOverTen_2, selectedPlayer: .constant("Player 2"), itemSpacing: .constant(20), range: range)
                 }
             }
         }
